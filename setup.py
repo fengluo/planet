@@ -17,7 +17,7 @@ setup(
         postflow=postflow.commands:postflow
     ''',
     install_requires=[
-        'feedparser==5.2.1', 'Flask==0.12.3', 'Flask-Storage==0.1.1',
+        'feedparser==5.2.1', 'Flask==1.0', 'Flask-Storage==0.1.1',
         'Flask-Mail==0.9.1', 'Flask-OAuthlib==0.9.3', 'Flask-Principal==0.4.0',
         'Flask-Alembic==2.0.1', 'Flask-SQLAlchemy==2.1',
         'Flask-Themes2==0.1.4', 'SQLAlchemy-Utils==0.32.12', 'gevent==1.1.1',
